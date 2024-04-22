@@ -554,25 +554,150 @@ video {
   --tw-contain-style:  ;
 }
 
-.bg-blue-200 {
+.sticky {
+  position: sticky;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.p-2 {
+  padding: 0.5rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.p-4 {
+  padding: 1rem;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+@media (min-width: 0px) {
+  .less\:hidden {
+    display: none;
+  }
+
+  .less\:w-5 {
+    width: 1.25rem;
+  }
 }
 
-.underline {
-  text-decoration-line: underline;
+@media (min-width: 200px) {
+  .mobile\:flex {
+    display: flex;
+  }
+
+  .mobile\:hidden {
+    display: none;
+  }
+
+  .mobile\:w-10 {
+    width: 2.5rem;
+  }
+
+  .mobile\:w-3 {
+    width: 0.75rem;
+  }
+
+  .mobile\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .mobile\:w-8 {
+    width: 2rem;
+  }
 }
+
+@media (min-width: 500px) {
+  .tablet\:w-10 {
+    width: 2.5rem;
+  }
+
+  .tablet\:w-12 {
+    width: 3rem;
+  }
+
+  .tablet\:justify-center {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .mini-top\:flex {
+    display: flex;
+  }
+
+  .mini-top\:hidden {
+    display: none;
+  }
+
+  .mini-top\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .mini-top\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .mini-top\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .mini-top\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .mini-top\:text-\[3vh\] {
+    font-size: 3vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .laptop\:w-\[50\%\] {
+    width: 50%;
+  }
+}
+

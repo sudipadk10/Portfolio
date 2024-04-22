@@ -4,11 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../output.css" rel="stylesheet">
+
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline ">
-    Hello world!
-  </h1>
-  <p class="text-3xl text-red-500 bg-blue-200 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestias odio, libero impedit sequi dolorum modi et asperiores. Asperiores, natus!</p>
+  <header>  
+    <div class="bg-white h-[100px] ">
+      <nav class=" flex justify-between items-center p-2 w-[100%]
+      ">
+      <div class="justify-start mini-top:w-[60%] tablet:justify-center mini-top:justify-start mobile:w-[100%] flex  "><img class="mini-top:w-[55%] h-[100%] laptop:w-[50%]" src="/images/logo.png" alt="SUDIP"></div>
+      <ul class="nav-bar  flex mini-top:w-[40%] mobile:w-3 mobile:hidden  mini-top:flex mini-top:text-[3vh] less:hidden justify-around  p-4 ">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Skill</a></li>
+        <li><a href="">Project</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+     <span class="mini-top:hidden mobile:flex ">
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" onclick="displayNav()" class="mobile:w-8 tablet:w-12 h-10 mr-3 less:w-5 "><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </span> 
+      
+      </nav>
+    </div>
+  </header>
+  <script src="../js/script.js"></script>
 </body>
 </html>
