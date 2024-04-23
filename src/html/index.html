@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
   <header>  
-    <div class="bg-white h-[100px] ">
+    <div class="bg-gray-300 h-[80px] ring-1 ">
       <nav class=" flex justify-between items-center p-2 w-[100%]
       ">
       <div class="justify-start mini-top:w-[60%] tablet:justify-center mini-top:justify-start mobile:w-[100%] flex  "><img class="mini-top:w-[55%] h-[100%] laptop:w-[50%]" src="/images/logo.png" alt="SUDIP"></div>
-      <ul class="nav-bar  flex mini-top:w-[40%] mobile:w-3 mobile:hidden  mini-top:flex mini-top:text-[3vh] less:hidden justify-around  p-4 ">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Skill</a></li>
-        <li><a href="">Project</a></li>
-        <li><a href="">Contact</a></li>
+      <ul class="nav-bar  flex mini-top:w-[40%] mobile:w-3 mobile:hidden  mini-top:flex mini-top:text-[3vh] less:hidden justify-around  p-4 X ">
+        <li class="hover:scale-110 hover:text-gray-700 hover:font-bold"><a class="after:bg-orange-700"  href="">Home</a></li>
+        <li class="hover:scale-110 hover:text-gray-700 hover:font-bold"><a class="after:bg-orange-700" href="">About</a></li>
+        <li class="hover:scale-110 hover:text-gray-700 hover:font-bold"><a class="after:bg-orange-700" href="">Skill</a></li>
+        <li class="hover:scale-110 hover:text-gray-700 hover:font-bold"><a class="after:bg-orange-700" href="">Project</a></li>
+        <li class="hover:scale-110 hover:text-gray-700 hover:font-bold"><a class="after:bg-orange-700" href="">Contact</a></li>
       </ul>
      <span class="mini-top:hidden mobile:flex ">
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" onclick="displayNav()" class="mobile:w-8 tablet:w-12 h-10 mr-3 less:w-5 "><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -27,6 +28,32 @@
       </nav>
     </div>
   </header>
+  <main>
+    <div class="tablet:flex  ring-2 h-[500px]">
+      <div class="flex flex-col items-start justify-center pl-8  w-[60%]">
+        <p class="leading-relaxed">Hello there!</p>
+        <h1 class="text-5xl font-semibold leading-normal ">
+          I am <span class="text-orange-700">Sudip Adhikari</span>
+        </h1>
+        <p class="mb-4 text-2xl font-normal "> IT Specailist</p>
+        <button class="p-2 mt-5 transition ease-in-out delay-100 bg-gray-500 hover:-translate-y-1 hover:scale-110 hover:bg-orange-700 rounded-2xl duration-300 ... ">
+          Contact me
+        </button>
+        
+      </div>
+      <div class="w-[40%] flex justify-start items-center">
+
+        <span class="bg-orange-500 rounded-full right-[5%] m-[10%]">
+          
+          <img src="/images/profile.png" alt="sudip"  class="flex  rounded-full " />
+      </span>
+      
+         
+    </div>
+      
+    </div>
+  </main>
+
   <script src="../js/script.js"></script>
 </body>
 </html>
