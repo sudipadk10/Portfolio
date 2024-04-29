@@ -212,46 +212,51 @@
       <p>Not now but soon</p>
     </div>
 
+    <!-- .............Contact.............. -->
     <div
       id="contact"
       class="w-full h-screen  flex justify-center items-center mt-32"
     >
-      <form
+    <form class="form"
+    action="https://getform.io/f/ebpdlrdb"
+        enctype="multipart/form-data"
         method="POST"
-        action="https://getform.io/f/ebpdlrdb"
-        class="flex flex-col max-w-[600px] w-full"
-      >
-        <div class="pb-8">
-          <h1 class=" text-gray-700 less:text-5xl tablet:text-6xl text-center">Contact</h1>
-          <p class="text-gray-700 py-4 text-center less:text-lg tablet:text-xl ">
-            Submit the form below or mail me at adhikarisudip869@gmail.com
-          </p>
-        </div>
-        <input
-          class=" bg-gray-300 p-2 text-black"
-          type="text"
-          placeholder="Name"
-          name="name"
-          required
-        />
-        <input
-          class="my-4 p-2  bg-gray-300  text-black"
-          type="email"
-          placeholder="Email"
-          name="email"
-          required
-        />
+        >
+      <p class="title">Contact&nbsp; Me</p>
+      <p class="message">Submit the form below or mail me at adhikarisudip869@gmail.com</p>
+          <div class="flex">
+          <label>
+              <input required="" placeholder="" type="text" class="input" name="Firstname" required
+              >
+              <span>Firstname</span>
+          </label>
+  
+          <label>
+              <input required="" placeholder="" type="text" class="input" name="Lastname" required
+              >
+              <span>Lastname</span>
+          </label>
+      </div>  
+              
+      <label>
+          <input required="" placeholder="" type="email" class="input" name="email" required>
+          <span>Email</span>
+      </label> 
+          
+      <label>
         <textarea
-          class=" bg-gray-300 text-black p-2"
-          name="message"
-          rows="10"
-          placeholder="Message"
-          required
+        class="input"
+        rows="4"
+        cols="30"
+        placeholder=""
+        required
+        name="message"
         ></textarea>
-        <button class="border-2 hover:bg-gray-500 hover:border-gray-500 px-4 py-3 my-8 mx-auto flex items-center">
-          Lets Collaborate
-        </button>
-      </form>
+        <span>message me</span>
+      </label>
+      <button class="submit">Submit</button>
+      
+  </form>
     </div>
 
   </main>
